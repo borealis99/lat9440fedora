@@ -1,4 +1,8 @@
 ## GRUB out i915 PSR
+   ```bash
+   sudo grubby --update-kernel=ALL --args="i915.enable_psr=0"
+   sudo reboot now
+   ```
 
 ## Firefox: Installing Extensions
 
