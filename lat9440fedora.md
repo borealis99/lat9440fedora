@@ -11,7 +11,7 @@ F1. **Create the policy directory and policies.json file:**
    ```
 
 F2. **Add extension installation policy:**
-   ```json
+```json
     {
       "policies": {
         "Extensions": {
@@ -24,6 +24,6 @@ F2. **Add extension installation policy:**
         }
       }
     }
-    ```
+```
 
 Extensions will be installed when Firefox next starts.
