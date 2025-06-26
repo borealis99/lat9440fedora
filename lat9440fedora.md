@@ -37,8 +37,12 @@ F2. **Add extension installation policy:**
 
 Extensions will be installed when Firefox next starts.
 
-## Rnote: Have Stylus Will Use
-**Install Rnote from Flathub** 
+## Moar Software
+
    ```bash
-   flatpak install flathub com.github.flxzt.rnote
+   flatpak install flathub com.github.flxzt.rnote  # RNote: Have Stylus, Will Draw
+   flatpak install flathub com.visualstudio.code   # VS Code: For Reasons
+   flatpak install flathub org.signal.Signal       # Signal: Texting a la Hegseth
+   flatpak install flathub com.discordapp.Discord  # Discord: For Nerds (Like Me)
+   flatpak install org.kde.krita                   # Krita: Exercise the Stylus
    ```
