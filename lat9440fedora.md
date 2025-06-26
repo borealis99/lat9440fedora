@@ -7,7 +7,7 @@
 
 ## Get my CTRL+ALT+T terminal back:
    Settings --> Keyboard --> Keyboard Shortcuts --> View and Customize Shortcuts \
-   `ptyxis --new-tab`
+   `ptyxis --tab`
 
 ## Change the hostname
    _**Is this the Krusty Krab?**_
