@@ -1,5 +1,5 @@
 ## GRUB out i915 PSR
-  _**This is specific to my Dell 9440, but if you're experiencing heavy graphics glitches this may help you too.**_ 
+  _**This is specific to my Dell 9440, but if you're experiencing your screen update in sparse vertical lines this may help you too.**_ 
    ```bash
    sudo grubby --update-kernel=ALL --args="i915.enable_psr=0"
    sudo reboot now
