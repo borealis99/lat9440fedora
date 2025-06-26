@@ -4,6 +4,10 @@
    sudo reboot now
    ```
 
+## Get my CTRL+ALT+T terminal back:
+   Settings --> Keyboard --> Keyboard Shortcuts --> View and Customize Shortcuts \
+   `ptyxis --new-tab`
+
 ## Firefox: Installing Extensions
 
 Create a policy file to auto-install extensions:
