@@ -20,9 +20,10 @@
   sudo reboot now
   ```
 
-## Disable GNOME Hot Corners
+## Disable GNOME Hot Corners and Automatic Screen Brightness
   ```bash
   gsettings set org.gnome.desktop.interface enable-hot-corners false
+  gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
   ```
 
 ## Firefox a la Marci
