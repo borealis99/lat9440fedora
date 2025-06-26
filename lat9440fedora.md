@@ -20,9 +20,9 @@
   sudo reboot now
   ```
 
-## Firefox: Install Extensions and Theme
+## Firefox a la Marci
 
-Create a policy file to auto-install extensions:
+Create a policy file to auto-install extensions and disable unwanted features (passwd mgr, sidebar, AI):
 
 F1. **Create the policy directory and policies.json file:**
    ```bash
@@ -30,22 +30,49 @@ F1. **Create the policy directory and policies.json file:**
    sudo nano /etc/firefox/policies/policies.json
    ```
 
-F2. **Add extension installation policy:**
-```json
-{
-   "policies": {
+F2. **Add policies:**
+  ```json
+  {
+    "policies": {
       "Extensions": {
-         "Install": [
-            "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
-            "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
-            "https://addons.mozilla.org/firefox/downloads/latest/privacy-com/latest.xpi",
-            "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
-            "https://addons.mozilla.org/firefox/downloads/file/4066280/lush_bold-2.1.xpi"
-         ]
+        "Install": [
+          "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+          "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
+          "https://addons.mozilla.org/firefox/downloads/latest/privacy-com/latest.xpi",
+          "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
+          "https://addons.mozilla.org/firefox/downloads/file/4066280/lush_bold-2.1.xpi"
+        ]
+      },
+      "PasswordManagerEnabled": false,
+      "OfferToSaveLogins": false,
+      "OfferToSaveLoginsDefault": false,
+      "DisableFirefoxStudies": true,
+      "UserMessaging": {
+        "ExtensionRecommendations": false,
+        "FeatureRecommendations": false,
+        "UrlbarInterventions": false,
+        "SkipOnboarding": true,
+        "MoreFromMozilla": false,
+        "WhatsNew": false
+      },
+      "FirefoxSuggest": {
+        "WebSuggestions": false,
+        "SponsoredSuggestions": false,
+        "ImproveSuggest": false
+      },
+      "Preferences": {
+        "browser.ml.enable": {
+          "Value": false,
+          "Status": "locked"
+        },
+        "browser.ml.chat.enabled": {
+          "Value": false,
+          "Status": "locked"
+        }
       }
-   }
-}
-```
+    }
+  }
+  ```
 
 Extensions will be installed when Firefox next starts.
 
