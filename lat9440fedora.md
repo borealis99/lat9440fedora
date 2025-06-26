@@ -8,7 +8,7 @@
    Settings --> Keyboard --> Keyboard Shortcuts --> View and Customize Shortcuts \
    `ptyxis --new-tab`
 
-## Firefox: Installing Extensions
+## Firefox: Install Extensions and Disable Sidebar
 
 Create a policy file to auto-install extensions:
 
@@ -30,6 +30,12 @@ F2. **Add extension installation policy:**
             "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
             "https://addons.mozilla.org/firefox/downloads/file/4066280/lush_bold-2.1.xpi"
          ]
+      },
+      "Preferences": {
+         "sidebar.position_start": {
+            "Value": false,
+            "Status": "locked"
+         }
       }
    }
 }
