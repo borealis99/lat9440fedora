@@ -95,6 +95,3 @@ Extensions will be installed when Firefox next starts.
   flatpak install flathub org.gnome.Extensions
   sudo dnf install gnome-shell-extension-pop-shell xprop  # Pop Shell: Window Tiling and Launcher
   ```
-
-## Addenda: 
-- gnome extensions && pop shell
