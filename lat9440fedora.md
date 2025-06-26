@@ -15,6 +15,11 @@
    sudo hostnamectl set-hostname $CHANGE_ME_HOSTNAME_UWU_CHANGE_ME
    ```
 
+## Reboot to make shortcut and hostname settings stick
+  ```bash
+  sudo reboot now
+  ```
+
 ## Firefox: Install Extensions and Theme
 
 Create a policy file to auto-install extensions:
