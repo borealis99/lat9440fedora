@@ -36,3 +36,9 @@ F2. **Add extension installation policy:**
 ```
 
 Extensions will be installed when Firefox next starts.
+
+## Rnote: Have Stylus Will Use
+**Install Rnote from Flathub** 
+   ```bash
+   flatpak install flathub com.github.flxzt.rnote
+   ```
