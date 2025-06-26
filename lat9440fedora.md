@@ -92,3 +92,6 @@ Extensions will be installed when Firefox next starts.
   flatpak install flathub org.kde.krita           # Krita: Exercise the Stylus
   flatpak install flathub io.github.pwr_solaar.solaar  # Solaar: For Logitech Unifying & Bolt
   ```
+
+## Addenda: 
+- gnome extensions && pop shell
