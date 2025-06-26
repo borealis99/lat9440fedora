@@ -8,6 +8,12 @@
    Settings --> Keyboard --> Keyboard Shortcuts --> View and Customize Shortcuts \
    `ptyxis --new-tab`
 
+## Change the hostname
+   _**Is this the Krusty Krab?**_
+   ```bash
+   sudo hostnamectl set-hostname $CHANGE_ME_HOSTNAME_UWU_CHANGE_ME
+   ```
+
 ## Firefox: Install Extensions and Theme
 
 Create a policy file to auto-install extensions:
