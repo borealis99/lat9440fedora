@@ -44,5 +44,5 @@ Extensions will be installed when Firefox next starts.
    flatpak install flathub com.visualstudio.code   # VS Code: For Reasons
    flatpak install flathub org.signal.Signal       # Signal: Texting a la Hegseth
    flatpak install flathub com.discordapp.Discord  # Discord: For Nerds (Like Me)
-   flatpak install flathub org.kde.krita                   # Krita: Exercise the Stylus
+   flatpak install flathub org.kde.krita           # Krita: Exercise the Stylus
    ```
