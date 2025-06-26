@@ -20,6 +20,11 @@
   sudo reboot now
   ```
 
+## Disable GNOME Hot Corners
+  ```bash
+  gsettings set org.gnome.desktop.interface enable-hot-corners false
+  ```
+
 ## Firefox a la Marci
 
 Create a policy file to auto-install extensions and disable unwanted features (passwd mgr, sidebar, AI):
