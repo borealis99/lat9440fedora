@@ -90,7 +90,10 @@ Extensions will be installed when Firefox next starts.
   flatpak install flathub org.signal.Signal       # Signal: Texting a la Hegseth
   flatpak install flathub com.discordapp.Discord  # Discord: For Nerds (Like Me)
   flatpak install flathub org.kde.krita           # Krita: Exercise the Stylus
-  flatpak install flathub io.github.pwr_solaar.solaar  # Solaar: For Logitech Unifying & Bolt
+  flatpak install flathub io.github.pwr_solaar.solaar     # Solaar: For Logitech Unifying & Bolt
+  
+  flatpak install flathub org.gnome.Extensions
+  sudo dnf install gnome-shell-extension-pop-shell xprop  # Pop Shell: Window Tiling and Launcher
   ```
 
 ## Addenda: 
