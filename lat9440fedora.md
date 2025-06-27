@@ -92,6 +92,7 @@ Extensions will be installed when Firefox next starts.
   flatpak install flathub org.kde.krita           # Krita: Exercise the Stylus
   flatpak install flathub io.github.pwr_solaar.solaar     # Solaar: For Logitech Unifying & Bolt
   flatpak install flathub com.prusa3d.PrusaSlicer # PrusaSlicer: he must slice
+  flatpak install flathub md.obsidian.Obsidian    # Obsidian: Note-taking
   
   flatpak install flathub org.gnome.Extensions
   sudo dnf install gnome-shell-extension-pop-shell xprop  # Pop Shell: Window Tiling and Launcher
