@@ -20,12 +20,6 @@
   sudo reboot now
   ```
 
-## Disable GNOME Hot Corners and Automatic Screen Brightness
-  ```bash
-  gsettings set org.gnome.desktop.interface enable-hot-corners false
-  gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
-  ```
-
 ## Firefox a la Marci
 
 Create a policy file to auto-install extensions and disable unwanted features (passwd mgr, sidebar, AI):
@@ -93,7 +87,20 @@ Extensions will be installed when Firefox next starts.
   flatpak install flathub io.github.pwr_solaar.solaar     # Solaar: For Logitech Unifying & Bolt
   flatpak install flathub com.prusa3d.PrusaSlicer # PrusaSlicer: he must slice
   flatpak install flathub md.obsidian.Obsidian    # Obsidian: Note-taking
-  
+
+  ```
+## A GNOME to Call Home
+### Disable GNOME Hot Corners and Automatic Screen Brightness
+  ```bash
+  gsettings set org.gnome.desktop.interface enable-hot-corners false
+  gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
+  ```
+### Enable Gnome Extensions and the gTiles Window Manager
+  ```bash
   flatpak install flathub org.gnome.Extensions
-  sudo dnf install gnome-shell-extension-pop-shell xprop  # Pop Shell: Window Tiling and Launcher
+  ```
+  Then install gTiles: https://extensions.gnome.org/extension/28/gtile/
+### Then Reboot
+  ```bash
+  sudo reboot now
   ```
