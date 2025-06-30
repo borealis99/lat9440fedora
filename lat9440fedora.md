@@ -111,6 +111,7 @@ Extensions will be installed when Firefox next starts.
   | Resize preset 13 | Ctrl+Super+g | `3x2 3:1 3:2 , 3x2 3:1 3:1 , 3x2 3:2 3:2` | Right third layouts |
   | Resize preset 14 | Ctrl+Super+e | `3x2 1:1 2:2` | Left two-thirds , full height |
   | Resize preset 15 | Ctrl+Super+t | `3x2 2:1 3:2` | Right two-thirds , full height |
+  | Resize preset 15 | Ctrl+Super+r | `6x1 2:1 5:1` | Center two-thirds , full height |
 
 ### Then Reboot
   ```bash
