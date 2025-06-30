@@ -114,6 +114,7 @@ Extensions will be installed when Firefox next starts.
   | Resize preset 14 | Ctrl+Super+e | `3x2 1:1 2:2` | Left two-thirds , full height |
   | Resize preset 15 | Ctrl+Super+t | `3x2 2:1 3:2` | Right two-thirds , full height |
   | Resize preset 16 | Ctrl+Super+r | `6x1 2:1 5:1` | Center two-thirds , full height |
+  | Resize preset 17 | Ctrl+Super+Return | `1x1 1:1 1:1` | Full Screen |
 
 ### Then Reboot
   ```bash
