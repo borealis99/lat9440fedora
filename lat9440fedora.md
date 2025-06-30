@@ -102,7 +102,9 @@ Extensions will be installed when Firefox next starts.
   Then install gTiles: https://extensions.gnome.org/extension/28/gtile/
 
   #### gTiles Resize Presets Configuration
-  After installing gTiles, configure these resize presets in the extension settings. _Preset numbers 11+ were selected as they are existing Ctrl + Super combos._
+  After installing gTiles, configure these resize presets in the extension settings.
+  
+  _Preset numbers 11+ were selected as they are existing Ctrl + Super combos._
 
   | Preset | Keyboard Shortcut | Grid Layout | Description |
   |--------|------------------|-------------|-------------|
