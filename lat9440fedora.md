@@ -79,15 +79,15 @@ Extensions will be installed when Firefox next starts.
 ## Moar Software
 
   ```bash
-  flatpak install flathub com.github.flxzt.rnote  # RNote: Have Stylus, Will Draw
-  flatpak install flathub com.visualstudio.code   # VS Code: For Reasons
-  flatpak install flathub org.signal.Signal       # Signal: Texting a la Hegseth
-  flatpak install flathub com.discordapp.Discord  # Discord: For Nerds (Like Me)
-  flatpak install flathub org.kde.krita           # Krita: Exercise the Stylus
-  flatpak install flathub io.github.pwr_solaar.solaar     # Solaar: For Logitech Unifying & Bolt
-  flatpak install flathub com.prusa3d.PrusaSlicer # PrusaSlicer: he must slice
-  flatpak install flathub md.obsidian.Obsidian    # Obsidian: Note-taking
-
+  flatpak install flathub com.github.flxzt.rnote        # RNote: Have Stylus, Will Draw
+  flatpak install flathub com.visualstudio.code         # VS Code: For Reasons
+  flatpak install flathub org.signal.Signal             # Signal: Texting a la Hegseth
+  flatpak install flathub com.discordapp.Discord        # Discord: For Nerds (Like Me)
+  flatpak install flathub org.kde.krita                 # Krita: Exercise the Stylus
+  flatpak install flathub io.github.pwr_solaar.solaar   # Solaar: For Logitech Unifying & Bolt
+  flatpak install flathub com.prusa3d.PrusaSlicer       # PrusaSlicer: he must slice
+  flatpak install flathub md.obsidian.Obsidian          # Obsidian: Note-taking
+  flatpak install flathub com.github.marktext.marktext  # MarkText: Markdown Editor
   ```
 ## A GNOME to Call Home
 ### Disable GNOME Hot Corners and Automatic Screen Brightness
