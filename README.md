@@ -4,6 +4,11 @@
    sudo grubby --update-kernel=ALL --args="i915.enable_psr=0"
    sudo reboot now
    ```
+  _**And for non-Fedora:**_
+  ```bash
+  sudo nano /etc/default/grub
+  ```
+  Then, at the end of the line containing `linux`, add `i915.enable_psr=0`. You should also do this within the grub menu of the live CD for a smoother installation experience.
 
 ## Get my CTRL+ALT+T terminal back:
    Settings --> Keyboard --> Keyboard Shortcuts --> View and Customize Shortcuts \
