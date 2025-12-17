@@ -232,6 +232,20 @@ After loading settings, you may need to restart GNOME Shell:
 dconf dump /org/gnome/shell/extensions/gtile/
 ```
 
+## Resolving Keybinding Conflicts
+
+Ubuntu's default "Show Desktop" binding includes Ctrl+Super+D, which conflicts with gTile preset 11. 
+
+To check current bindings:
+```bash
+gsettings get org.gnome.desktop.wm.keybindings show-desktop
+```
+
+To free up Ctrl+Super+D while keeping Super+D and Ctrl+Alt+D:
+```bash
+gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d', '<Primary><Alt>d']"
+```
+
 ### Then Reboot
   ```bash
   sudo reboot now
