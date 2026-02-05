@@ -50,7 +50,7 @@ F2. **Add policies:**
           "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
           "https://addons.mozilla.org/firefox/downloads/latest/privacy-com/latest.xpi",
           "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
-          "https://addons.mozilla.org/firefox/downloads/file/4066280/lush_bold-2.1.xpi"
+          "https://addons.mozilla.org/firefox/downloads/file/4066272/graffiti_bold-2.1.xpi"
         ]
       },
       "PasswordManagerEnabled": false,
