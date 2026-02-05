@@ -41,7 +41,7 @@ F1. **Create the policy directory and policies.json file:**
 
 
 F2. **Add policies:**
-  ```json
+```json
  {
   "policies": {
     "Extensions": {
@@ -78,13 +78,14 @@ F2. **Add policies:**
       "browser.ml.chat.enabled": {
         "Value": false,
         "Status": "locked"
-      },"browser.newtabpage.activity-stream.showWeather": { "Value": false, "Status": "locked" },
+      },
+      "browser.newtabpage.activity-stream.showWeather": { "Value": false, "Status": "locked" },
       "browser.newtabpage.activity-stream.feeds.section.topstories": { "Value": false, "Status": "locked" },
       "browser.newtabpage.activity-stream.feeds.topsites": { "Value": false, "Status": "locked" }
     }
   }
 }
-  ```
+```
 
 Extensions will be installed when Firefox next starts.
 
