@@ -34,6 +34,11 @@ F1. **Create the policy directory and policies.json file:**
    sudo mkdir -p /etc/firefox/policies
    sudo nano /etc/firefox/policies/policies.json
    ```
+   For flatpak firefox installations, use this path instead:
+   ```bash
+   sudo nano /var/lib/flatpak/app/org.mozilla.firefox/current/active/files/lib/firefox/distribution/policies.json
+   ```
+
 
 F2. **Add policies:**
   ```json
@@ -197,6 +202,10 @@ resize14='3x2 1:1 2:2'
 resize15='3x2 2:1 3:2'
 resize16='6x1 2:1 5:1'
 resize17='1x1 1:1 1:1'
+resize18='2x2 1:1 1:2'
+resize19='2x2 2:1 2:2'
+resize20='2x2 1:1 2:1'
+resize21='2x2 1:2 2:2'
 preset-resize-11=['<Super><Control>d']
 preset-resize-12=['<Super><Control>f']
 preset-resize-13=['<Super><Control>g']
@@ -204,6 +213,10 @@ preset-resize-14=['<Super><Control>e']
 preset-resize-15=['<Super><Control>t']
 preset-resize-16=['<Super><Control>r']
 preset-resize-17=['<Super><Control>Return']
+preset-resize-18=['<Super><Control>Left']
+preset-resize-19=['<Super><Control>Right']
+preset-resize-20=['<Super><Control>Up']
+preset-resize-21=['<Super><Control>Down']
 EOF
 
 dconf load /org/gnome/shell/extensions/gtile/ < gtile-presets.conf
@@ -218,6 +231,10 @@ dconf load /org/gnome/shell/extensions/gtile/ < gtile-presets.conf
 | 15 | Ctrl+Super+T | `3x2 2:1 3:2` | Right two-thirds, full height |
 | 16 | Ctrl+Super+R | `6x1 2:1 5:1` | Center two-thirds, full height |
 | 17 | Ctrl+Super+Return | `1x1 1:1 1:1` | Fullscreen |
+| 18 | Ctrl+Super+Left | `2x2 1:1 1:2` | Left half |
+| 19 | Ctrl+Super+Right | `2x2 2:1 2:2` | Right half |
+| 20 | Ctrl+Super+Up | `2x2 1:1 2:1` | Top half |
+| 21 | Ctrl+Super+Down | `2x2 1:2 2:2` | Bottom half |
 
 ## Applying Changes
 
